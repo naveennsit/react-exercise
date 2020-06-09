@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    background: #dcdcdc;
+    padding: 1rem;
+    border-radius: 7px;
+    box-shadow: 0 3px 5px rgba(0,0,0,.4);
+    max-height: 300px;
+    margin-left: 2rem;
+}
+
+.card__city-name{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.mb-10{
+    margin-bottom: 1rem;
+}
+
+.cities-container {
+
+}
+
+.cities-container {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.cities-container th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.cities-container tr:nth-child(even) {
+    background-color: gainsboro;
+}
+
+.cities-container tr:hover {
+    color: #cd5c5c;
+}

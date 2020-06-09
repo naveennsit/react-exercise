@@ -1,5 +1,4 @@
-[
-  {
+export const data = [{
     "country": "US",
     "name": "Bay Minette",
     "location": {
